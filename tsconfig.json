@@ -5,6 +5,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "jsx": "react-jsx",
