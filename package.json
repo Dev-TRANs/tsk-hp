@@ -4,5 +4,6 @@
   },
   "dependencies": {
     "hono": "^4.6.20"
-  }
+  },
+  "type": "module"
 }
