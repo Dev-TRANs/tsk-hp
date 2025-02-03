@@ -1,5 +1,6 @@
 import { Hono } from "hono"
 import { jsxRenderer, useRequestContext } from "hono/jsx-renderer"
+import { onlySSG } from "hono/ssg"
 
 declare module 'hono' {
   interface ContextRenderer {
@@ -28,6 +29,6 @@ const app = new Hono()
 .notFound(c => c.render(
   <h1>404!</h1>,
   { title: "Not Found..." }
-)).get("/404")
+)).get("/404", onlySSG())
 
 export default app
