@@ -1,7 +1,6 @@
 import app from "./src/index.tsx"
-import { toSSG } from "hono/ssg"
-import fs from "node:fs/promises"
+import { toSSG } from "hono/bun"
 
-toSSG(app, fs, {
+toSSG(app, {
   dir: "./dist",
 })

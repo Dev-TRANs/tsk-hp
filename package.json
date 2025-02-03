@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "node ./build.ts"
+    "build": "bun ./build.ts"
   },
   "dependencies": {
     "hono": "^4.6.20"
