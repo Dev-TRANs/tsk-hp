@@ -34,11 +34,21 @@ const app = new Hono()
 }))
 .get("/", c => c.render(
   <>
-    <table style="">
+    <div><table>
       <tr><td>T</td><td>東北</td></tr>
       <tr><td>S</td><td>生徒会</td></tr>
       <tr><td>K</td><td>交流会</td></tr>
-    </table>
+    </table></div>
+    <div>
+      2025年 3月 31日 (月曜日) 20:30から
+    </div>
+    <div>
+      <div>東北六県の生徒会活動での悩み共有</div>
+      <div>悩みの解決策をディスカッション</div>
+    </div>
+    <div>
+      <div>東北地方の生徒会</div>
+    </div>
   </>,
   { title: "TSK - 東北生徒会交流会" }
 ))
