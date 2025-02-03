@@ -28,6 +28,6 @@ const app = new Hono()
 .notFound(c => c.render(
   <h1>404!</h1>,
   { title: "Not Found..." }
-))
+)).get("/404")
 
 export default app
