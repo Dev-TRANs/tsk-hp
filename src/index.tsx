@@ -26,9 +26,9 @@ const app = new Hono()
   <div>hello world</div>,
   { title: "TSK - 東北生徒会交流会" }
 ))
-.notFound(c => c.render(
+.get("/404", c => c.render( // app.notFound()
   <h1>404!</h1>,
   { title: "Not Found..." }
-)).get("/404", onlySSG())
+))
 
 export default app
