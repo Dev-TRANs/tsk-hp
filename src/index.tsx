@@ -34,7 +34,7 @@ const app = new Hono()
 }))
 .get("/", c => c.render(
   <>
-    <div><table>
+    <div id="logo"><table>
       <tr><td>T</td><td>東北</td></tr>
       <tr><td>S</td><td>生徒会</td></tr>
       <tr><td>K</td><td>交流会</td></tr>
