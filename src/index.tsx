@@ -7,25 +7,25 @@ declare module 'hono' {
   interface ContextRenderer {
     (
       content: string | Promise<string>,
-      props: { title: string, Head?: () => JSX.Element }
+      props: { title: string, head?: () => JSX.Element }
     ): Response
   }
 }
 
 const app = new Hono()
-.use("*", jsxRenderer(({ children, title, Head }) => {
+.use("*", jsxRenderer(({ children, title, head }) => {
   return <html lang="ja">
     <head>
       <meta charset="utf-8" />
       <title>{ title } - 東北生徒会交流会</title>
       <link href="/main.css" rel="stylesheet" />
-      { Head && <Head /> }
+      { head?.() }
     </head>
     <body>
       <header>
         <span>TSK - 東北生徒会交流会</span>
       </header>
-      <div>{children}</div>
+      <div id="main">{children}</div>
       <footer>
         footer...
       </footer>
@@ -50,7 +50,10 @@ const app = new Hono()
       <div>東北地方の生徒会</div>
     </div>
   </>,
-  { title: "TSK - 東北生徒会交流会" }
+  {
+    title: "TSK - 東北生徒会交流会",
+    head: () => <><link href="/main.css" rel="stylesheet" /></>
+  }
 ))
 .get("/404", c => c.render( // app.notFound()
   <h1>404!</h1>,
