@@ -52,7 +52,7 @@ const app = new Hono()
   </>,
   {
     title: "TSK - 東北生徒会交流会",
-    head: () => <><link href="/main.css" rel="stylesheet" /></>
+    head: () => <><link href="/home.css" rel="stylesheet" /></>
   }
 ))
 .get("/404", c => c.render( // app.notFound()
