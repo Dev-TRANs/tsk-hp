@@ -9,3 +9,7 @@
 #logo {
   font-size: 100px;
 }
+
+#logo-right {
+  margin: auto 0;
+}
