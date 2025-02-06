@@ -2,6 +2,10 @@
   display: grid;
 }
 
+#top {
+  display: flex;
+}
+
 #logo {
   font-size: 100px;
 }
