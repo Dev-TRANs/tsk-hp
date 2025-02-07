@@ -1,0 +1,79 @@
+/* main.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* 背景色 */
+  color: #333; /* 文字色 */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+#main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column; /* スマホなどでは縦に並ぶように */
+  align-items: center; /* 中央寄せ */
+}
+
+#top {
+  display: flex;
+  justify-content: space-around; /* 要素を均等に配置 */
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#logo table {
+  border-collapse: collapse;
+}
+
+#logo td {
+  border: 1px solid #333;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+#logo-right {
+  text-align: left;
+}
+
+#logo-right div {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* home.css (必要に応じて追加) */
+/* 例えば、特定の要素の色を変えたい場合など */
+#top {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#logo {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#logo-right {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: lightgray;
+}
