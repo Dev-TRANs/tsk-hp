@@ -26,8 +26,9 @@ footer {
   justify-content: center;
 }
 
-a,a:visited{
+a, a:visited{
   color: black;
+  border-top: solid transparent 3px; /* レイアウト崩れ回避 */
   border-bottom: solid 3px #88d;
   text-decoration: none;
 }
