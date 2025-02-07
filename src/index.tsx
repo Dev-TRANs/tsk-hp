@@ -41,7 +41,17 @@ const app = new Hono()
         <tr><td>K</td><td>交流会</td></tr>
       </table></div>
       <div id="logo-right">
-        お申し込みは<a href="https://docs.google.com/forms/d/e/1FAIpQLSfMosW5smKyY7ntmF7P34l2c-xMkohgJ8LgAR8-AjppOWHqOQ/viewform">こちら</a>から
+        <div>
+          <h4>内容</h4>
+          <div>東北六県の生徒会活動での悩み共有</div>
+          <div>悩みの解決策をディスカッション</div>
+        </div>
+        <div>2025年 3月 31日 (月曜日) 20:30から</div>
+        <div>
+          <h4>対象</h4>
+          <div>東北地方の生徒会</div>
+        </div>
+        <div>お申し込みは<a href="https://docs.google.com/forms/d/e/1FAIpQLSfMosW5smKyY7ntmF7P34l2c-xMkohgJ8LgAR8-AjppOWHqOQ/viewform">こちら</a>から</div>
       </div>
     </div>
     <div>
@@ -54,14 +64,7 @@ const app = new Hono()
       他校を知る数少ない機会ですのでぜひ交流してみてください！
       おそらくほとんどの方は初めての経験になると思いますが、方にとらわれない自由な雰囲気を造ってより多くの方が「楽しかった」と思えるような企画を目指しています。
     </div>
-    <div>2025年 3月 31日 (月曜日) 20:30から</div>
-    <div>
-      <div>東北六県の生徒会活動での悩み共有</div>
-      <div>悩みの解決策をディスカッション</div>
-    </div>
-    <div>
-      <div>東北地方の生徒会</div>
-    </div>
+
   </>,
   {
     title: "TSK - 東北生徒会交流会",
