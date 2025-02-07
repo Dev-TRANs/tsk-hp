@@ -4,6 +4,7 @@ body {
 
 header {
   height: 70px;
+  margin-bottom: 20px;
   border-bottom: 2px solid;
   display: flex;
   align-items: center;
@@ -20,4 +21,7 @@ header {
 footer {
   height: 70px;
   /* background-color: #dfd; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

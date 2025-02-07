@@ -27,7 +27,7 @@ const app = new Hono()
       </header>
       <div id="main">{children}</div>
       <footer>
-        footer...
+        Created by <a href="https://trans.stki.org/">TRANs</a>
       </footer>
     </body>
   </html>
@@ -41,7 +41,7 @@ const app = new Hono()
         <tr><td>K</td><td>交流会</td></tr>
       </table></div>
       <div id="logo-right">
-        ー東北生徒会交流会とはー
+        <h3>ー東北生徒会交流会とはー</h3>
         東北生徒会交流会は「東北地方にも生徒会外務の仕事を広めよう！」という思いから生まれた交流イベントです。
         生徒会には”外務”という外と関わる仕事もあります。しかし、東北地方にはあまり外務の仕事は浸透しておらず、ほかの学校の生徒会員と関わる機会もほとんど存在しませんでした。
         そこで今回「春季東北生徒会交流会」と題し、東北の生徒会所属の学生がつながれるコミュニティを形成するためのイベントを開催することになりました！！
