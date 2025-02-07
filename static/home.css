@@ -4,6 +4,7 @@
 
 #top {
   display: flex;
+  gap: 15px;
 }
 
 #logo {
@@ -13,6 +14,8 @@
   height: 500px;
   background: #deddff;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 #logo > table {
