@@ -8,7 +8,15 @@
 
 #logo {
   font-size: 100px;
-  min-width: 400px;
+  min-width: 500px;
+  width: 500px;
+  height: 500px;
+  background: #deddff;
+  border-radius: 50%;
+}
+
+#logo > table {
+  margin: auto;
 }
 
 #logo-right {
