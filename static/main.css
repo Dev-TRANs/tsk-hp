@@ -25,3 +25,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+a,a:visited{
+  color: black;
+  border-bottom: solid 3px #88d;
+  text-decoration: none;
+}
