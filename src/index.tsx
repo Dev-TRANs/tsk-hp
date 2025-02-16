@@ -23,7 +23,7 @@ const app = new Hono()
     </head>
     <body>
       <header>
-        <span>TSK - 東北生徒会交流会</span>
+        <span>TSK - 東北生徒会交流会 (工事中)</span>
       </header>
       <div id="main">{children}</div>
       <footer>
