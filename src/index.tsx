@@ -27,7 +27,7 @@ const app = new Hono()
       </header>
       <div id="main">{children}</div>
       <footer>
-        Created by <a href="https://trans.stki.org/">TRANs</a>
+        <span>Created by <a href="https://trans.stki.org/">TRANs</a></span>
       </footer>
     </body>
   </html>
