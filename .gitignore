@@ -1,2 +1,6 @@
 /node_modules
 /dist
+/static/index.html
+/static/404.html
+.DS_Store
+static/.DS_Store

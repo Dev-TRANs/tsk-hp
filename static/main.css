@@ -1,35 +1,4 @@
 body {
   margin: 0;
-  font-family: sans-serif;
-}
-
-header {
-  height: 70px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid;
-  display: flex;
-  align-items: center;
-  padding: 0 50px;
-  font-weight: bold;
-  font-size: 130%;
-}
-
-#main {
-  margin: 0 auto;
-  max-width: 900px;
-}
-
-footer {
-  height: 70px;
-  /* background-color: #dfd; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-a, a:visited{
-  color: black;
-  border-top: solid transparent 3px; /* レイアウト崩れ回避 */
-  border-bottom: solid 3px #88d;
-  text-decoration: none;
+  font-family: "Noto Sans JP", serif;
 }
