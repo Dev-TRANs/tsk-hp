@@ -49,7 +49,7 @@ const app = new Hono()
           <p class="text-4xl mt-2 font-bold">生徒会交流会</p>
           <p class="text-xl sm:text-2xl mt-4 sm:mt-6"><span class="text-3xl sm:text-4xl">3</span>月<span class="text-3xl sm:text-4xl">31</span>日(月) <span class="text-3xl sm:text-4xl">20:30~</span></p>
           <a href="https://forms.gle/JfTDq5AsEyU9AMWKA">
-            <button class="text-2xl border border-white border-2 rounded-md px-4 py-2 mt-5 hover:bg-white hover:text-sky-800">参加</button>
+            <button class="text-2xl border border-white border-2 rounded-md px-4 py-2 mt-5 hover:bg-white hover:text-sky-800">参加申込</button>
           </a>
         </div>
       </div>
