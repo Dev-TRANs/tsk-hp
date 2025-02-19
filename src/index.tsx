@@ -27,6 +27,7 @@ const app = new Hono()
       <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Noto+Sans+JP:wght@100..900&family=Stick&display=swap" rel="stylesheet" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=task_alt" />
       { head?.() }
+      <meta name="google-site-verification" content="U3N1SPErYZ6hcrPgWswh8WCyACwLkJXfE7c7QNofrBQ" />
     </head>
     <body>
       <div id="main">{children}</div>
