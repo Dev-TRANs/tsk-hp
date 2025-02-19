@@ -19,6 +19,7 @@ const app = new Hono()
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
       <title>{ title } - 東北生徒会交流会</title>
+　　　　<meta name="description" content="東北地方の生徒会外務活動を推進すべく東北の生徒会に所属する学生が立ち上げた学生団体です。東北地方の生徒会コミュニティーの形成を目指しています。「つながる東北生徒会」を目指してイベントの運営を行っています。" />
       <link href="/main.css" rel="stylesheet" />
       <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
