@@ -43,7 +43,7 @@ const app = new Hono()
       <img src="/img/2365_1_m.jpg" />
       <img src="/img/2383_1_m.jpg" class="place-self-end" />
       <img src="/img/2388_1_m.jpg" />
-      <div class="absolute top-1/2 left-1/2 -translate-1/2 rounded-[50%] bg-sky-800 w-full max-w-[448px] min-w-[320px] aspect-square border-12 border-white place-content-center">
+      <div class="absolute top-1/2 left-1/2 -translate-1/2 rounded-[50%] bg-sky-800 w-full max-w-[448px] min-w-[320px] aspect-square border-12 border-white flex justify-center items-center">
         <div class="text-white w-full text-center font-['Stick']">
           <p class="text-xl">東北生徒会交流委員会</p>
           <p class="text-4xl mt-4 font-bold">春季東北</p>
