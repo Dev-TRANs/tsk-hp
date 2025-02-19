@@ -41,7 +41,7 @@ const app = new Hono()
     <div class="relative p-5 grid grid-cols-2 gap-4 min-h-screen h-screen min-h-[512px] [&>img]:object-cover [&>img]:rounded-xl [&>img]:h-full [&>img]:overflow-hidden">
       <img src="/img/2313_1_m.jpg" class="place-self-end" />
       <img src="/img/2365_1_m.jpg" />
-      <img src="/img/2112_1_m.jpeg" class="place-self-end" />
+      <img src="/img/2112_1_m.jpg" class="place-self-end" />
       <img src="/img/2388_1_m.jpg" />
       <div class="absolute top-1/2 left-1/2 -translate-1/2 rounded-[50%] bg-sky-800 w-full max-w-[448px] min-w-[320px] aspect-square border-12 border-white flex justify-center items-center">
         <div class="text-white w-full text-center font-['Stick']">
