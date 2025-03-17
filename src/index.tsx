@@ -116,6 +116,24 @@ const app = new Hono()
         <p>「つながる東北生徒会」を目指してイベントの運営を行っています。</p>
       </div>
     </div>
+    <div class="text-center mt-10">
+  <h1 class="text-center font-bold text-4xl font-['Stick'] mb-4">後援</h1>
+  <div>
+    <div class="inline-block m-4 align-top w-48">
+      <a href="https://seitokaishinko.org/">
+        <img src="/img/shinko_logo.jpeg" class="h-48 w-48 rounded-3xl" />
+        <p class="text-center text-xl mt-2 font-bold">生徒会活動振興会</p>
+      </a>
+    </div>
+    <div class="inline-block m-4 align-top w-48">
+      <a href="https://www.instagram.com/seitokai_kaidan2025/">
+        <img src="/img/kaidan_logo.jpeg" class="h-48 w-48 rounded-3xl" />
+        <p class="text-center text-xl mt-2 font-bold">生徒会会談</p>
+      </a>
+    </div>
+  </div>
+</div>
+
   </>,
   {
     title: "TSK - 東北生徒会交流会"
